@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment & secrets
+.env
+
+# SQLite local cache & Pytest
+.cache/
+.pytest_cache/
+
+# Model weights (downloaded automatically at runtime)
+*.pt
+*.pth
+*.onnx
+
+# Environments
+venv/
+.venv/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
